@@ -47,7 +47,7 @@ int main() {
 void demonstrateInventory() {
     Inventory inventory;
 
-    std::cout << "Adding sample books to inventory...\n\n";
+    std::cout << "Adding sample books to inventory\n\n";
 
     // Add some books (they will be automatically sorted by title)
     inventory.addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald", 12.99, 1925));
